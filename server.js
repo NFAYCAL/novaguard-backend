@@ -82,12 +82,6 @@ app.post("/api/demo", (req, res) => {
   }
 
   const payload = parsed.data;
-// Pricing stored in memory (NO DATABASE)
-let pricing = [
-  { name: "Starter", price: 0, currency: "EUR", note: "1 base Oracle" },
-  { name: "Pro", price: 299, currency: "EUR", note: "Jusqu'à 10 bases" },
-  { name: "Enterprise", price: 0, currency: "EUR", note: "Sur devis" }
-];
 
   // ✅ No DB: just console log (visible in Azure Log Stream)
   console.log("📩 [NO-DB] Demo request:", {
