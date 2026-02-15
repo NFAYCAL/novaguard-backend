@@ -95,7 +95,7 @@ app.get("/api/pricing", (req, res) => {
     ok: true,
     database: "none",
     plans: [
-      { name: "Starter", price: 0, currency: "EUR", note: "5 base Oracle" },
+      { name: "Starter", price: 0, currency: "EUR", note: "6 base Oracle" },
       { name: "Pro", price: 450, currency: "EUR", note: "Jusqu'à 20 bases" },
       { name: "Enterprise", price: null, currency: "EUR", note: "Sur devis" },
     ],
